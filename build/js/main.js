@@ -1,7 +1,14 @@
 "use strict";
+//let start to show what is power of TS
+//open code sandbox and create two var let num1 = "10"  num2 = 2
+//try to / or multiply
+//as u c it works but try this now in ts play ground
+let num1 = "10";
+let num2 = 10;
+//start presentation
 //create file html, main.ts and main.js
 //let us define myName and run tsc command
-//as u c we this command generate js file, but as u c js is old code var we will learn how to control the version of js after little bit
+//as u c  this command generate js file, but as u c js is old code var we will learn how to control the version of js after little bit
 //the error u c now because we open both file ts vs js,  close it and error will gone
 let myName = "hello";
 console.log(myName);
@@ -15,3 +22,4 @@ console.log(myName);
 //now we it will re build js once u do update in ts file
 //another issue we have try to create ts file out of src folder, as u c it create new js file outside build
 //to fix it go to ts config add to end "include": ["src"]
+//uncomment noEmitOnError so u can not run until fix error

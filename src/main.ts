@@ -4,7 +4,7 @@
 //as u c it works but try this now in ts play ground
 let num1 = "10";
 let num2 = 10;
-// num1 / num2
+console.log(num1 / num2);
 
 //start presentation
 
@@ -29,4 +29,6 @@ console.log(myName);
 //another issue we have try to create ts file out of src folder, as u c it create new js file outside build
 //to fix it go to ts config add to end "include": ["src"]
 
-//uncomment noEmitOnError so u can not run until fix error
+//uncomment noEmitOnError
+//try now to delete example num1/num2 number/string save and then deploy it again
+// this time the TS will not compile this code to js because there is an error
