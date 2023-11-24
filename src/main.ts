@@ -1,34 +1,27 @@
-//let start to show what is power of TS
-//open code sandbox and create two var let num1 = "10"  num2 = 2
-//try to / or multiply
-//as u c it works but try this now in ts play ground
-let num1 = "10";
-let num2 = 10;
-console.log(num1 / num2);
+//define string
+let myName: string = "kareem";
+//now try to type myName then dot
+//ts will help you and
+//try now to reassign number to myName
+//u will find error
 
-//start presentation
+//also u can declare var and assign value letter
+//let myName: string
+//myName = "kareem nour"
 
-//create file html, main.ts and main.js
-//let us define myName and run tsc command
-//as u c  this command generate js file, but as u c js is old code var we will learn how to control the version of js after little bit
-//the error u c now because we open both file ts vs js,  close it and error will gone
+//define number
 
-let myName = "hello";
-console.log(myName);
+//now let talk about inference, implicit and explicit
+let myAge = 30;
 
-//now let us try to organize our project little bit
-//create build folder move main.ts into it and src folder, then tsc --init
-//as u c tsconfig.ts has been created, we used this file to set some config for ts, such as js version
-//open ts config change "rootDir": "./src" and  "outDir": "./build/js" and
-//run tsc and check js file now, as u see there is no var now thats because
-//--> target setting u can find it in tsconfig, we use target to configure version of js output file
+//hover now in age u will c ts decide the type of this var is number, if u tried now to reassign string it will give an error, this operation the operation of auto detect type is called implicit or inference
+//the opposite of this operation called explicit and this is define the type by ur self
 
-//another command i want to share with u instead of tsc command try tsc --watch
-//now we it will re build js once u do update in ts file
-
-//another issue we have try to create ts file out of src folder, as u c it create new js file outside build
-//to fix it go to ts config add to end "include": ["src"]
-
-//uncomment noEmitOnError
-//try now to delete example num1/num2 number/string save and then deploy it again
-// this time the TS will not compile this code to js because there is an error
+//boolean
+//regex
+//null
+//undefined
+//any: we can use this if we dont have info what type of incoming value but dont use it as we called it the killer of ts
+let anyVar: any = "ahmed";
+//now try to type anyVar and then dot there is no suggestion as we did in string
+//union type
