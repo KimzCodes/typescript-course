@@ -10,7 +10,7 @@ let num2 = 10;
 
 //create file html, main.ts and main.js
 //let us define myName and run tsc command
-//as u c we this command generate js file, but as u c js is old code var we will learn how to control the version of js after little bit
+//as u c  this command generate js file, but as u c js is old code var we will learn how to control the version of js after little bit
 //the error u c now because we open both file ts vs js,  close it and error will gone
 
 let myName = "hello";
