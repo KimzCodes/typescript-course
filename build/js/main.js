@@ -1,23 +1,20 @@
 "use strict";
-//define string
-let myName = "kareem";
-//now try to type myName then dot
-//ts will help you and
-//try now to reassign number to myName
-//u will find error
-//also u can declare var and assign value letter
-//let myName: string
-//myName = "kareem nour"
-//define number
-//now let talk about inference, implicit and explicit
-let myAge = 30;
-//hover now in age u will c ts decide the type of this var is number, if u tried now to reassign string it will give an error, this operation the operation of auto detect type is called implicit or inference
-//the opposite of this operation called explicit and this is define the type by ur self
-//boolean
-//regex
-//null
-//undefined
-//any: we can use this if we dont have info what type of incoming value but dont use it as we called it the killer of ts
-let anyVar = "ahmed";
-//now try to type anyVar and then dot there is no suggestion as we did in string
-//union type
+//array
+//string
+let names = [];
+//try to push numbers
+//names.push(1)
+//will give u error
+//try names[0]. u will c it suggested all string method
+//same thing as number
+let usersAges = [];
+//if try to push string will give error
+//could be union
+let users = [];
+//users[0]. it will show less suggestions as u c
+//what if we want to design array with specific length and types
+//the answer is tuple
+let userData;
+userData = ["kareem", 30];
+//also we can redecalier
+userData[0] = "ahmed";
