@@ -21,3 +21,6 @@ let myAge = 30;
 let anyVar = "ahmed";
 //now try to type anyVar and then dot there is no suggestion as we did in string
 //union type
+//literal type
+let userName;
+userName = "ahmed";
