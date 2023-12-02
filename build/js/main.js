@@ -55,6 +55,8 @@ const human = {
 // nullish reason because
 (_a = human.speed) === null || _a === void 0 ? void 0 : _a.toLowerCase();
 //nested objects
+//more about type
+//give example we can create type to hold string or number and then use it inside object
 //introduce enum
 var Direction;
 (function (Direction) {
