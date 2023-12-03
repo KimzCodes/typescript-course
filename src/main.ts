@@ -97,6 +97,11 @@ human.speed?.toLowerCase();
 //more about type
 //give example we can create type to hold string or number and then use it inside object
 
+// array of objects
+const mankind: TCreature[] = [
+  { name: "kareem", age: 35, sleep: true, speed: "to fast" },
+];
+
 //introduce enum
 
 enum Direction {
