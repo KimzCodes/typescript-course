@@ -1,11 +1,16 @@
 "use strict";
 //let create basic function
-//if we left params without annotations let us c the inferance value
+//as u c without add annotation to params it will give any
+// const sum = (num1, num2) => num1 + num2;
+// sum(1, 2);
+//so the correct way
 const sum = (num1, num2) => num1 + num2;
 sum(1, 2);
+//now hover the sum to see the inference the return will be number
+//of course we can do it string or any thing we want
+//but
+//what if we need the function doesnt return any thing?
 //void
-//string
-//union
 //with any
 //as u c it will give u an error to fix that u have to uncomment  "noImplicitAny": false
 //create function like below
